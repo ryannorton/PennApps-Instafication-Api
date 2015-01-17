@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 class Target:
 
-	name = "Target"
+	name = "Target Store"
 	BASE_URL = "http://www.target.com/s?searchTerm="
 
 	def search(self, item):
