@@ -7,6 +7,8 @@ api_key = 'gqjsnjas9av755pcz8mek3ma'
 
 class Walmart:
 	
+	name = 'Walmart'
+
 	def search(self, item):
 		search = requests.get('http://api.walmartlabs.com/v1/search?apiKey=' + api_key + '&lsPublisherId=Postmates&query=' + item)
 		data = json.loads(search.text)
@@ -17,9 +19,6 @@ class Walmart:
 			data = json.loads(lookup.text)
 			salePrice = data['salePrice']
 
-			return {'item': item, 'price': salePrice, 'store': 'Walmart'}
+			return float(salePrice)
 		else:
 			return None
-
-walmart = Walmart()	
-print walmart.search('Dyson DC40 Origin Upright Vacuum Cleaner')
