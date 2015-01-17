@@ -1,0 +1,53 @@
+body {
+	background-color: rgb(254,205,122);
+}
+
+#navlogo {
+	width: 35px;
+	margin: 20px;
+}
+
+nav.navbar {
+	background: transparent;
+	border: 0;
+}
+
+button.cta {
+	width: 150px;
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #487;
+	border: 0px solid #763;
+	border-radius: 4px;
+}
+
+#biglogo {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-weight: 800;
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+p {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.1em;
+	color: #f4f4f4;
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+
+#browser {
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+}

@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 import json
 from stores.target import Target
 from stores.walmart import Walmart
@@ -23,7 +23,7 @@ def get(query):
 
 @app.route("/")
 def home():
-	return "PennApps bitch"
+	return render_template('home.html')
 
 @app.route("/search/<item>")
 def search(item):
