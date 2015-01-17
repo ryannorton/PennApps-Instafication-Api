@@ -8,10 +8,10 @@ app.debug = True
 def home():
 	return "PennApps bitch"
 
-@app.route("/search")
+@app.route("/search/<item>")
 def search(item):
 	result = {
-		'item' : 'Baseball',
+		'item' : item,
 		'store' : 'Walmart',
 		'price' : 35.62
 	}
