@@ -37,12 +37,17 @@ h1 {
 	margin-bottom: 50px;
 }
 
+#subgap {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
 p {
 	text-align: center;
 	font-family: 'Arimo', sans-serif;
-	font-size: 1em;
+	font-size: .9em;
 	color: #f4f4f4;
-	margin-top: -50px;
+	margin-top: -55px;
 	margin-bottom: 20px;
 }
 
