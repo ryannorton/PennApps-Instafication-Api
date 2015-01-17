@@ -11,7 +11,7 @@ def home():
 @app.route("/search")
 def search(item):
 	result = {
-		'item' : 'Baseball'
+		'item' : 'Baseball',
 		'store' : 'Walmart',
 		'price' : 35.62
 	}
