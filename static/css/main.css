@@ -49,7 +49,8 @@ p#sub {
 #browser {
 	display: block;
 	margin: 0 auto;
-	width: 900px;
+	width: 1230px;
+	margin-top: -220px;
 }
 
 #browserhighlights {
