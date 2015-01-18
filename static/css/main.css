@@ -57,7 +57,7 @@ p#sub {
 	width: 1200px;
 	right: 50px;
 	top: 130px;
-
+	z-index: -100;
 }
 
 button#cta {
