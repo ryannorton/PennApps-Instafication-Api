@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(254,205,122);
+	background-color: #343632;
 }
 
 #navlogo {
@@ -26,6 +26,7 @@ button.cta {
 	display: block;
 	margin: 0 auto;
 	margin-top: 50px;
+	width: 200px;
 }
 
 h1 {
@@ -55,4 +56,23 @@ p {
 	display: block;
 	margin: 0 auto;
 	width: 900px;
+	margin-bottom: 60px;
 }
+
+#how-section {
+	background: #BCC2C2;
+}
+
+img#howto {
+	display: block;
+	margin: 0px auto;
+	padding: 50px;
+	width: 1100px;
+}
+
+
+
+
+
+
+
