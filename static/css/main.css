@@ -1,3 +1,6 @@
+/*COLOR THEME*/
+/*https://color.adobe.com/Penn-Apps-2-color-theme-5202862/*/
+
 body {
 	background-color: #343642;
 }
@@ -10,16 +13,6 @@ body {
 nav.navbar {
 	background: transparent;
 	border: 0;
-}
-
-button.cta {
-	width: 150px;
-	height: 40px;
-	margin-top: 20px;
-	margin-right: 20px;
-	background: #487;
-	border: 0px solid #763;
-	border-radius: 4px;
 }
 
 #biglogo {
@@ -71,6 +64,11 @@ button#cta {
 	font-size: 20px;
 	background: transparent;
 	color: #FECD08;
+}
+
+button#cta:hover {
+	background: #FECD08;
+	color: white;
 }
 
 #how-section {
