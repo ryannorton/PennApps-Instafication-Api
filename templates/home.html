@@ -14,23 +14,15 @@
 	<p id="sub">anything online delivered in an hour</p>
 	<button id="cta">Get Instant</button>
 	<img src="/static/images/browser.svg" id="browser">
-	<!-- Large modal -->
-	<button type="button" class="btn btn-primary vidbutton" data-toggle="modal" data-target=".bs-example-modal-lg">Check out our promo video</button>
-
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-	  <div class="modal-dialog modal-md">
-	    <div class="modal-content">
-	      <iframe src="//player.vimeo.com/video/117080505" width="578" height="350" frameborder="0" title="0" autoplay="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	    </div>
-	  </div>
-	</div>
+	<div id="video-section">
+		<iframe src="//player.vimeo.com/video/117080505?title=0&byline=0&portrait=0" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="mainvid"></iframe>
+	</div>	
 	<div id="how-section">
 		<h1>What is Instant<span class="trademark">TM</span>?</h1>
 		<p>The Instant Button is a chrome extension that appears alongside your favorite online retailers. Instant<span class="trademark">TM</span> searches for the product you want in your local stores and makes a call to PostMates to deliver the item to you within an hour.</p>
 		<p>In short, Instant combines the convenience of online shopping with the speed of local delivery.</p>
 		<img src="/static/images/InstaficationDiagram.svg" id="howto">
 	</div>
-
 	<footer class="footer">
 		<div class="container">
 			<p class="text-muted">©2015 Instant, Inc. Made with love at PennApps Winter 2015.</p>

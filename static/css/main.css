@@ -51,6 +51,7 @@ p#sub {
 	margin: 0 auto;
 	width: 1230px;
 	margin-top: -220px;
+	margin-bottom: 50px;
 }
 
 #browserhighlights {
@@ -151,3 +152,12 @@ div.modal-content {
   padding-top: 8%;
 }
 
+#mainvid {
+	display: block;
+	margin: 0 auto;
+}
+
+#video-section {
+	background: white;
+	padding: 50px;
+}
