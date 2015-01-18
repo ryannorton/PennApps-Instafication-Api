@@ -110,7 +110,10 @@ footer.footer p {
 	margin: 20px;
 }
 
-
+span.trademark {
+	vertical-align: super;
+	font-size: .4em;
+}
 
 
 
