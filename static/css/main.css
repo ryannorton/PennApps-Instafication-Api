@@ -52,6 +52,14 @@ p#sub {
 	width: 900px;
 }
 
+#browserhighlights {
+	position: absolute;
+	width: 1200px;
+	right: 50px;
+	top: 130px;
+
+}
+
 button#cta {
 	display: block;
 	text-align: center;
