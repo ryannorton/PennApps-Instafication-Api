@@ -149,5 +149,5 @@ button.vidbutton:hover {
 #video-section {
 	background: white;
 	padding: 130px;
-	height: 100vh;
+	min-height: 100vh;
 }
